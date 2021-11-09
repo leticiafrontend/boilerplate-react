@@ -1,14 +1,15 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { Main } from "./components/Main";
+import { GlobalStyles } from "./styles/global";
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Boilerplate React</p>
-      </header>
-    </div>
+    <>
+      <GlobalStyles />
+      <Main
+        title="React JS - Boilerplate"
+        description="React, TypeScript, Styled Components, Storybook, Eslint, Prettier, Husky, React Testing Library, Jest and Jest Styled Components!"
+      />
+    </>
   );
 };
 
