@@ -1,5 +1,5 @@
-import { Main } from "./components/Main";
-import { GlobalStyles } from "./styles/global";
+import { Main } from 'components/Main'
+import { GlobalStyles } from './styles/global'
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
         description="React, TypeScript, Styled Components, Storybook, Eslint, Prettier, Husky, React Testing Library, Jest and Jest Styled Components!"
       />
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App
