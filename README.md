@@ -49,7 +49,7 @@ You can start editing the page by modifying `App.tsx`. The page auto-updates as 
 
 ## Folder Architecture
 
-- <i>** tests **</i>
+- <i>__ tests __</i>
 
   > _Folder responsible for the storage of project tests_
 
