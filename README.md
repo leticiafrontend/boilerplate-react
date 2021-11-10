@@ -1,43 +1,95 @@
-# Getting Started with Create React App
+# This is a [React](https://pt-br.reactjs.org/) boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is inside?
 
-## Available Scripts
+This project uses lot of stuff as:
 
-In the project directory, you can run:
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Storybook](https://storybook.js.org/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
 
-### `yarn start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+First, install dependencies:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm install
+# or
+yarn install
+```
 
-### `yarn test`
+Second, run the development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm run start
+# or
+yarn start
+```
 
-### `yarn build`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can start editing the page by modifying `App.tsx`. The page auto-updates as you edit the file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Commands
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `start`: runs your application on `localhost:3000`
+- `build`: creates the production build version
+- `lint`: runs the linter in all components and pages
+- `test`: runs jest to test all components and pages
+- `test:watch`: runs jest in watch mode
+- `storybook`: runs storybook on `localhost:6006`
+- `build-storybook`: create the build version of storybook
+- `generate`: create folder with files for a component
 
-### `yarn eject`
+## Folder Architecture
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- <i>** tests **</i>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  > _Folder responsible for the storage of project tests_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- _.github_
+  > _Folder responsible for the storage of dependabot settings_
+- _.husky_
+  > _Folder responsible for the storage of husky settings_
+- _.jest_
+  > _Folder responsible for the storage of tests settings_
+- _.storybook_
+  > _Folder responsible for the storage of storybook settings_
+- _generators_
+  > _Folder responsible for the storage of plop file templates_
+- _public_
+  > _Folder responsible for the storage of public files_
+- _src_
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  - _assets_
+
+    > _Folder responsible for the storage of images, svg's and fonts_
+
+  - _components_
+    > _Folder responsible for the storage of components_
+  - _contexts_
+    > _Folder responsible for the storage of contexts_
+  - _hooks_
+    > _Folder responsible for the storage of hooks_
+  - _pages_
+    > _Folder responsible for the storage of pages_
+  - _services_
+    > _Folder responsible for the storage of services integration and requests_
+  - _styles_
+    > _Folder responsible for the storage of global styles_
+  - _themes_
+    > _Folder responsible for the storage of theme settings_
+  - _utils_
+    > _Folder responsible for the storage of utility functions_
+
+- _stories_
+  > _Folder responsible for the storage of storie in storybook_
 
 ## Learn More
 
